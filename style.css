@@ -23,7 +23,15 @@ body{
     top: -50%;
     border-radius: 50px;
 }
-
+.heart:after{
+    content: '';
+    position: absolute;
+    height: 70px; 
+    width: 70px;
+    background: #f20044;
+    right: -50%;
+    border-radius: 50px;
+}
 
 
 
